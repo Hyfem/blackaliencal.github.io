@@ -21,13 +21,14 @@ h1{
 }
 div{
     border: 2px solid grey;
-    width: auto;
-    max-width: 280px;
-    height: 500px;
-    padding: 10px;
+    width: 350px;
+    height: max-content;
+    padding: 5px;
     border-radius: 10px;
     display: flex;
     flex-wrap: wrap;
+    overflow: scroll;
+    text-align: center;
 }
 body{
     display: flex;
