@@ -27,8 +27,4 @@
         <input type="button" value="c" onclick="cal.display.value=''" style="background-color: #cc0000;">
         <input type="button" value="=" onclick="cal.display.value=eval(cal.display.value)" style="background-color: #7db1b2;">
         <input type="button" value="&#247;"  onclick="cal.display.value+='/'" style="background-color: green;">
-     </form>
-    </div>
-    
-</body>
-</html>
+        <input type="button" value="%" onclick="cal.display.value=eval(cal.display.value.replace('%', '/100*'))" style="background-color: green;"></html>
